@@ -1,0 +1,9 @@
+[package]
+name = "scoring-engine"
+version = "0.3.0"
+edition = "2021"
+
+[dependencies]
+tonic = "0.11"
+tokio = { version = "1", features = ["full"] }
+hdrhistogram = "7"
